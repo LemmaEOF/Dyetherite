@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "dyetherite:dyed_netherite_helmet",
+    "dyetherite:dyed_netherite_chestplate",
+    "dyetherite:dyed_netherite_leggings",
+    "dyetherite:dyed_netherite_boots"
+  ]
+}
