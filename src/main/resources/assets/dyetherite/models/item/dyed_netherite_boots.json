@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "dyetherite:item/dyed_netherite_boots",
+    "layer1": "dyetherite:item/dyed_netherite_boots_overlay"
+  }
+}

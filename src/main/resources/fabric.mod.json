@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "starter",
+  "id": "dyetherite",
   "version": "${version}",
 
-  "name": "Fabric Starter",
-  "icon": "assets/starter/icon.png",
-  "description": "Template for starting out Fabric mods",
+  "name": "Dyetherite",
+  "icon": "assets/dyetherite/icon.png",
+  "description": "Dyeable Netherite armor",
   "license": "MIT",
   "contact": {
-    "sources": "https://github.com/CottonMC/FabricStarter"
+    "sources": "https://github.com/Boundarybreaker/Dyetherite"
   },
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.cottonmc.starter.FabricStarter"
+      "space.bbkr.dyetherite.Dyetherite"
+    ],
+    "client": [
+      "space.bbkr.dyetherite.DyetheriteClient"
     ]
   },
   "mixins": [
-    "mixins.starter.json"
+    "mixins.dyetherite.json"
   ],
   "depends": {
     "fabricloader": ">=0.4.0"
-  },
-  "custom": {
-    "modmenu:api": true
   }
 }
